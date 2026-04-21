@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOAZ AGRO LIMITED | Institutional Agricultural Excellence</title>
+    <meta name="description" content="BOAZ AGRO LIMITED is a premier agricultural conglomerate specializing in large-scale farming, agro-processing, AgriTech, and global logistics.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav style="position: fixed; width: 100%; z-index: 1000; padding: 1.5rem 5%; display: flex; justify-content: space-between; align-items: center; background: rgba(15, 23, 21, 0.8); backdrop-filter: blur(10px); border-bottom: 1px solid rgba(212, 175, 55, 0.1);">
+        <div class="logo" style="font-size: 1.5rem; font-weight: 700; color: var(--accent); letter-spacing: 2px;">BOAZ AGRO <span style="font-weight: 300; color: var(--white);">LIMITED</span></div>
+        <div class="nav-links" style="display: flex; gap: 2.5rem; align-items: center;">
+            <a href="#about" style="text-decoration: none; color: var(--white); font-weight: 400; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">About</a>
+            <a href="#divisions" style="text-decoration: none; color: var(--white); font-weight: 400; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Divisions</a>
+            <a href="#agritech" style="text-decoration: none; color: var(--white); font-weight: 400; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">AgriTech</a>
+            <a href="#contact" style="text-decoration: none; color: var(--white); font-weight: 400; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px;">Contact</a>
+            <a href="javascript:void(0)" onclick="togglePortal()" class="btn btn-outline" style="padding: 0.5rem 1.2rem; font-size: 0.8rem;">Investor Portal</a>
+        </div>
+    </nav>
+
+    <!-- Investor Portal Modal -->
+    <div id="portalModal" class="modal-overlay">
+        <div class="modal-content">
+            <span class="modal-close" onclick="togglePortal()">&times;</span>
+            <h2 style="margin-bottom: 1rem; color: var(--accent);">Institutional Login</h2>
+            <p style="margin-bottom: 2rem;">Access BOAZ AGRO corporate governance, financial reports, and strategic roadmap documents.</p>
+            <form>
+                <div class="form-group">
+                    <label>Corporate Email</label>
+                    <input type="email" placeholder="name@firm.com">
+                </div>
+                <div class="form-group">
+                    <label>Access Key</label>
+                    <input type="password" placeholder="••••••••">
+                </div>
+                <button type="button" class="btn btn-primary" style="width: 100%;">Authorize Access</button>
+            </form>
+            <p style="font-size: 0.8rem; margin-top: 1.5rem; text-align: center; color: var(--text-muted);">Unauthorized access is strictly prohibited and monitored.</p>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="height: 100vh; display: flex; align-items: center; position: relative; overflow: hidden; background: linear-gradient(rgba(10, 61, 46, 0.7), rgba(15, 23, 21, 0.9)), url('hero_bg.png') center/cover no-repeat;">
+        <div class="container" style="position: relative; z-index: 10;">
+            <div class="reveal" style="max-width: 800px;">
+                <h1 style="margin-bottom: 2rem;">Cultivating the Future of <span style="color: var(--accent);">Global Agriculture.</span></h1>
+                <p style="font-size: 1.25rem; margin-bottom: 3rem; color: #cbd5e1;">From precision farming to global logistics, BOAZ AGRO is redefining the agricultural value chain through innovation, scale, and sustainability.</p>
+                <div class="flex">
+                    <a href="#divisions" class="btn btn-primary">Explore Our Divisions</a>
+                    <a href="#contact" class="btn btn-outline">Partner With Us</a>
+                </div>
+            </div>
+        </div>
+        <div style="position: absolute; bottom: -50px; right: -50px; width: 400px; height: 400px; background: var(--accent); opacity: 0.05; border-radius: 50%; filter: blur(100px);"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center;">
+                <div class="reveal">
+                    <h2 style="color: var(--accent); font-size: 1rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 1rem;">Our Mission</h2>
+                    <h2>Institutional Excellence in Every Acre.</h2>
+                    <p>BOAZ AGRO LIMITED stands at the intersection of traditional agricultural wisdom and modern technological efficiency. We operate a diversified ecosystem designed to ensure food security, empower farmers, and deliver premium agricultural commodities to the global market.</p>
+                    <p>Our commitment to sustainability and large-scale operational excellence makes us a preferred partner for governments, industries, and international trade organizations.</p>
+                </div>
+                <div class="reveal" style="position: relative; padding: 2rem;">
+                    <div style="width: 100%; height: 500px; background: var(--primary-light); border-radius: 20px; overflow: hidden; box-shadow: 0 30px 60px rgba(0,0,0,0.4);">
+                        <div style="width: 100%; height: 100%; background: url('about_image.png') center/cover no-repeat;"></div>
+                    </div>
+                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 2px solid var(--accent); border-radius: 20px; transform: translate(-20px, 20px); z-index: -1;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divisions Section -->
+    <section id="divisions" class="section" style="background: #141d1a;">
+        <div class="container">
+            <div class="reveal" style="text-align: center; margin-bottom: 5rem;">
+                <h2 style="color: var(--accent); font-size: 1rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 1rem;">The BOAZ Ecosystem</h2>
+                <h2>Diversified Agricultural Pillars</h2>
+            </div>
+            
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <!-- Large-scale crop farming -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 3.5 8 4.7A7 7 0 0 1 11 20z"></path></svg>
+                    </div>
+                    <h3>Large-scale Crop Farming</h3>
+                    <p>We manage massive agricultural estates using satellite-guided machinery and precision irrigation, focusing on staple crops to ensure regional food security and high-volume industrial supply.</p>
+                </div>
+
+                <!-- Livestock farming -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 16v1a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h2m5.66 0H14a2 2 0 0 1 2 2v3.34"></path><path d="M12 12h.01"></path></svg>
+                    </div>
+                    <h3>Livestock Farming</h3>
+                    <p>Our poultry and cattle operations utilize bio-secure environments and data-driven nutrition protocols, delivering premium protein products while maintaining the highest standards of animal welfare.</p>
+                </div>
+
+                <!-- Agro-processing -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20h20"></path><path d="M20 16V4h-4v4h-4V4H8v12h12z"></path></svg>
+                    </div>
+                    <h3>Agro-processing</h3>
+                    <p>Bridging the gap between farm and consumer, our industrial complexes process rice, cassava, and vegetable oils into refined, market-ready commodities for domestic and international retail.</p>
+                </div>
+
+                <!-- Fertilizer production -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M2 12h20"></path></svg>
+                    </div>
+                    <h3>Fertilizer & Nutrients</h3>
+                    <p>We manufacture advanced NPK blends and organic fertilizers tailored to specific soil profiles, empowering farmers with the inputs needed to achieve exponential yield growth across varied terrains.</p>
+                </div>
+
+                <!-- AgriTech platform -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    </div>
+                    <h3>AgriTech Platform</h3>
+                    <p>Our proprietary digital ecosystem connects smallholders directly to global buyers, providing real-time market data, transparent pricing, and financial inclusion tools to the rural workforce.</p>
+                </div>
+
+                <!-- Cold chain logistics -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 17h4V5H2v12h3m1 0a2 2 0 1 0 4 0 2 2 0 1 0-4 0m11 0a2 2 0 1 0 4 0 2 2 0 1 0-4 0M17 17h2v-3l-3.5-3.5H13"></path></svg>
+                    </div>
+                    <h3>Cold Chain Logistics</h3>
+                    <p>Maintaining the integrity of perishables from farm-gate to supermarket, our refrigerated fleet and solar-powered storage hubs effectively eliminate post-harvest waste across the supply chain.</p>
+                </div>
+
+                <!-- Commodity Export -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    </div>
+                    <h3>Global Commodity Export</h3>
+                    <p>BOAZ AGRO serves as a premium gateway for high-quality agricultural exports, ensuring international compliance and seamless delivery of African produce to European, Asian, and American markets.</p>
+                </div>
+
+                <!-- Greenhouse farming -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    </div>
+                    <h3>Greenhouse Farming</h3>
+                    <p>Our climate-controlled greenhouse clusters enable the year-round cultivation of high-value horticultural crops, ensuring consistent supply and price stability regardless of seasonal weather patterns.</p>
+                </div>
+
+                <!-- Fish Farming -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 12c0 3.05-2.39 5.33-7.73 5.33-1.51 0-3.11-.39-4.5-1L6.5 21l-.23-4.67C4 15.33 1 13.5 1 12c0-1.5 3-3.33 5.27-4.33L6.5 3l4.27 4.67c1.39-.61 2.99-1 4.5-1 5.34 0 7.73 2.28 7.73 5.33z"></path></svg>
+                    </div>
+                    <h3>Modern Aquaculture</h3>
+                    <p>Utilizing intensive Recirculating Aquaculture Systems (RAS), we produce premium fresh-water fish in a sustainable, high-density environment with minimal environmental impact.</p>
+                </div>
+
+                <!-- Equipment Leasing -->
+                <div class="reveal card" style="background: var(--bg-card); padding: 3rem; border-radius: 20px; border: 1px solid rgba(212, 175, 55, 0.1); transition: var(--transition);">
+                    <div style="width: 60px; height: 60px; background: rgba(212, 175, 55, 0.1); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 2rem;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                    </div>
+                    <h3>Equipment & Leasing</h3>
+                    <p>Democratizing access to heavy machinery, our leasing division provides tractors, harvesters, and drones to independent farmers, accelerating regional mechanization and productivity.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AgriTech Spotlight & Live Dashboard -->
+    <section id="agritech" class="section">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: 1fr 1fr; align-items: center;">
+                <div class="reveal">
+                    <div style="position: relative; width: 100%; height: 600px; background: var(--bg-card); border-radius: 30px; overflow: hidden; border: 1px solid rgba(212, 175, 55, 0.2);">
+                         <div style="width: 100%; height: 100%; background: url('agritech_preview.png') center/cover no-repeat;"></div>
+                    </div>
+                    
+                    <!-- Live Commodity Dashboard Overlay -->
+                    <div class="commodity-dashboard">
+                        <h4 style="color: var(--accent); margin-bottom: 1rem; display: flex; align-items: center; gap: 0.5rem;">
+                            <span style="width: 8px; height: 8px; background: #ef4444; border-radius: 50%; display: inline-block; animation: pulse 2s infinite;"></span>
+                            Live Commodity Index
+                        </h4>
+                        <div id="ticker">
+                            <!-- JS will populate this -->
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <h2 style="color: var(--accent); font-size: 1rem; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 1rem;">AgriTech Innovation</h2>
+                    <h2>The Digital Backbone of BOAZ AGRO.</h2>
+                    <p>Our proprietary platform integrates IoT sensors, satellite imagery, and blockchain-based traceability to optimize the entire lifecycle from soil to shelf.</p>
+                    <ul style="list-style: none; margin: 2rem 0;">
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="color: var(--accent);">✓</div>
+                            <div><strong>Real-time Monitoring:</strong> Soil health and crop vitality metrics delivered to your device via satellite telemetry.</div>
+                        </li>
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="color: var(--accent);">✓</div>
+                            <div><strong>Blockchain Traceability:</strong> Immutable supply chain logs ensuring "Farm-to-Table" transparency for global exports.</div>
+                        </li>
+                        <li style="margin-bottom: 1.5rem; display: flex; gap: 1rem; align-items: flex-start;">
+                            <div style="color: var(--accent);">✓</div>
+                            <div><strong>Market Intelligence:</strong> AI-driven predictive analytics for crop yields and global commodity price trends.</div>
+                        </li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Request Platform Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="section" style="background: var(--bg-dark); border-top: 1px solid rgba(212, 175, 55, 0.1);">
+        <div class="container">
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
+                <div>
+                    <div class="logo" style="font-size: 1.5rem; font-weight: 700; color: var(--accent); letter-spacing: 2px; margin-bottom: 2rem;">BOAZ AGRO <span style="font-weight: 300; color: var(--white);">LIMITED</span></div>
+                    <p>Building a sustainable agricultural future for the global market through institutional excellence.</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 2rem;">Quick Links</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: var(--text-muted); text-decoration: none;">Corporate Governance</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: var(--text-muted); text-decoration: none;">Investor Portal</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: var(--text-muted); text-decoration: none;">ESG Framework</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#" style="color: var(--text-muted); text-decoration: none;">Annual Reports</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 2rem;">Global HQ</h4>
+                    <p>42 Emerald Way, Agri-Hub District</p>
+                    <p>contact@boazagro.com</p>
+                    <p>+1 (800) BOAZ-AGRO</p>
+                </div>
+                <div>
+                    <h4 style="margin-bottom: 2rem;">Newsletter</h4>
+                    <div style="display: flex; gap: 0.5rem;">
+                        <input type="email" placeholder="Your Email" style="background: rgba(255,255,255,0.05); border: 1px solid rgba(212, 175, 55, 0.2); padding: 0.8rem; border-radius: 8px; color: white; width: 100%;">
+                        <button class="btn btn-primary" style="padding: 0.8rem 1.5rem; border-radius: 8px;">Join</button>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-top: 5rem; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 2rem;">
+                <p>&copy; 2026 BOAZ AGRO LIMITED. All Rights Reserved. | <a href="#" style="color: var(--accent); text-decoration: none;">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Reveal on scroll logic
+        const reveals = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+        reveals.forEach(reveal => revealObserver.observe(reveal));
+
+        // Investor Portal Toggle
+        function togglePortal() {
+            const modal = document.getElementById('portalModal');
+            modal.style.display = modal.style.display === 'flex' ? 'none' : 'flex';
+        }
+
+        // Live Commodity Ticker Logic
+        const commodities = [
+            { name: 'White Rice (Premium)', price: 620.50, change: +1.2 },
+            { name: 'Cassava Starch', price: 145.20, change: -0.5 },
+            { name: 'Crude Palm Oil', price: 980.00, change: +2.1 },
+            { name: 'Maize (Yellow)', price: 310.40, change: +0.8 },
+            { name: 'Soybean (Export Grade)', price: 540.00, change: -1.1 }
+        ];
+
+        function updateTicker() {
+            const ticker = document.getElementById('ticker');
+            ticker.innerHTML = commodities.map(c => `
+                <div class="ticker-item">
+                    <span>${c.name}</span>
+                    <span class="${c.change >= 0 ? 'price-up' : 'price-down'}">
+                        $${c.price.toFixed(2)} (${c.change >= 0 ? '+' : ''}${c.change}%)
+                    </span>
+                </div>
+            `).join('');
+            
+            // Randomly simulate price changes
+            commodities.forEach(c => {
+                const fluctuation = (Math.random() - 0.5) * 2;
+                c.price += fluctuation;
+                c.change = parseFloat((fluctuation / c.price * 100).toFixed(2));
+            });
+        }
+
+        setInterval(updateTicker, 3000);
+        updateTicker();
+    </script>
+
+    <style>
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.3; }
+            100% { opacity: 1; }
+        }
+    </style>
+</body>
+</html>
