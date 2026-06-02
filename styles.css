@@ -101,6 +101,22 @@ nav.scrolled {
 }
 .nav-cta:hover { background: var(--amber); transform: translateY(-1px); }
 
+.nav-links a.nav-staff {
+    color: var(--amber) !important;
+    border: 1px solid rgba(233,168,76,0.35);
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: background 0.2s, border-color 0.2s, color 0.2s;
+}
+.nav-links a.nav-staff:hover {
+    background: rgba(233,168,76,0.12);
+    border-color: var(--amber);
+    color: var(--cream) !important;
+}
+.nav-links a.nav-staff::after { display: none; }
+
 .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; }
 .hamburger span { display:block; width:24px; height:2px; background:var(--cream); transition:all 0.3s; }
 
