@@ -632,6 +632,22 @@ section { padding: 100px 5vw; }
 }
 .chain-cell.highlight p { color:var(--amber); }
 
+/* ── CIRCULAR ECONOMY ───────────────────────────── */
+#circularity {
+    background: linear-gradient(135deg, var(--forest) 0%, var(--leaf) 100%);
+    padding:100px 5vw;
+    position:relative; overflow:hidden;
+}
+.circularity-inner {
+    max-width:1300px; margin:0 auto;
+    display:grid; grid-template-columns:1fr 1fr; gap:80px; align-items:center;
+    position:relative; z-index:1;
+}
+.circularity-content .section-title { color:var(--cream); margin-bottom:20px; }
+.circularity-content .section-label span { color:var(--amber); }
+.circularity-content .section-label::before { background:var(--amber); }
+.circularity-content .section-desc { color:rgba(247,237,216,0.6); margin-bottom:32px; }
+
 /* ── WHY US ─────────────────────────────────────── */
 #why {
     background:var(--cream);
