@@ -32,3 +32,6 @@ next-env.d.ts
 !.dev.vars.example
 .env*
 !.env.example
+
+# OpenNext (Cloudflare) build output
+.open-next/
