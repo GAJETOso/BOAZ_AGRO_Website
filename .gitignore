@@ -25,3 +25,10 @@ temp/
 /out/
 next-env.d.ts
 *.tsbuildinfo
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
