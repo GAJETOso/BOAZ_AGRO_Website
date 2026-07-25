@@ -130,7 +130,7 @@ nav.scrolled {
 
 .hero-bg {
     position: absolute; inset: 0;
-    background: linear-gradient(rgba(10, 34, 18, 0.7), rgba(10, 34, 18, 0.9)), url('hero_bg.png') center/cover no-repeat;
+    background: linear-gradient(rgba(10, 34, 18, 0.7), rgba(10, 34, 18, 0.9)), url('/hero_bg.png') center/cover no-repeat;
 }
 
 /* Animated grid lines */
@@ -346,7 +346,7 @@ section { padding: 100px 5vw; }
 }
 .about-img-frame {
     width:100%; aspect-ratio:4/5;
-    background: url('about_image.png') center/cover no-repeat;
+    background: url('/about_image.png') center/cover no-repeat;
     position:relative; overflow:hidden;
     border: 1px solid rgba(200,135,42,0.2);
 }
@@ -509,7 +509,7 @@ section { padding: 100px 5vw; }
 .mockup-body { 
     padding:0;
     height: 400px;
-    background: url('agritech_preview.png') center/cover no-repeat;
+    background: url('/agritech_preview.png') center/cover no-repeat;
 }
 
 .agritech-content .section-title { color:var(--cream); margin-bottom:20px; }
