@@ -1,8 +1,9 @@
 import type { ProcessStep, ChainCell } from "../types";
+import { companyStats } from "./companyStats";
 
 export const coldChainSteps: ProcessStep[] = [
   { num: "01", title: "Farm-Gate Collection", desc: "Refrigerated trucks deployed to farm locations within 4 hours of harvest notification via BoazConnect." },
-  { num: "02", title: "Regional Cold Hubs", desc: "12 strategically placed cold storage hubs with 50,000 MT aggregate capacity across 6 geopolitical zones." },
+  { num: "02", title: "Regional Cold Hub", desc: `${companyStats.coldChainHubs} cold storage hub serving our ${companyStats.statesOfOperation} states of operation today, with capacity built to grow alongside our farm network.` },
   { num: "03", title: "Quality Inspection & Sorting", desc: "Automated optical sorting and laboratory testing to export-grade certification before onward shipment." },
   { num: "04", title: "Port Delivery & Export", desc: "Direct partnerships with Apapa, Tin Can, and Onne ports for seamless container loading and customs clearance." },
 ];

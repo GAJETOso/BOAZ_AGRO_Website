@@ -47,9 +47,9 @@ export default function DivisionsGrid() {
           className="div-card"
           style={{
             opacity: staggered ? 1 : 0,
-            transform: staggered ? "translateY(0)" : "translateY(20px)",
+            transform: staggered ? "translateY(0) scale(1)" : "translateY(24px) scale(0.96)",
             transition:
-              "opacity 0.5s ease, transform 0.5s ease, background 0.4s, border-color 0.4s",
+              "opacity 0.7s var(--ease-premium), transform 0.7s var(--ease-premium), background 0.45s var(--ease-premium), border-color 0.45s var(--ease-premium), box-shadow 0.45s var(--ease-premium)",
             transitionDelay: staggered ? `${i * 70}ms` : undefined,
           }}
         >

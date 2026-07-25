@@ -1,7 +1,8 @@
 import type { Division, HeroHighlight } from "../types";
+import { companyStats } from "./companyStats";
 
 export const divisions: Division[] = [
-  { num: "01", icon: "🌾", name: "Large-Scale Crop Farming", desc: "Industrial cultivation of rice, maize, sorghum, soybeans, and cassava across 5,000+ hectares of prime farmland." },
+  { num: "01", icon: "🌾", name: "Large-Scale Crop Farming", desc: `Cultivation of rice, maize, sorghum, soybeans, and cassava across ${companyStats.hectares} hectares of prime farmland.` },
   { num: "02", icon: "🐄", name: "Livestock Farming", desc: "Integrated poultry, cattle, and small ruminant operations supplying premium protein to domestic and export markets." },
   { num: "03", icon: "🏭", name: "Agro-Processing", desc: "State-of-the-art milling and processing of rice, cassava (flour/starch), and crude/refined palm oil at industrial scale." },
   { num: "04", icon: "🧪", name: "Fertilizer Production", desc: "Manufacturing and distribution of NPK blends, organic fertilizers, and soil amendment products across Nigeria." },
@@ -32,7 +33,7 @@ export const heroHighlights: HeroHighlight[] = [
   {
     icon: "🌾",
     title: "Large-Scale Crop Farming",
-    desc: "Rice, maize, cassava & soybean cultivation at industrial scale across fertile Nigerian lowlands.",
+    desc: "Rice, maize, cassava & soybean cultivation across fertile Nigerian lowlands.",
     rotate: "-2deg",
   },
   {
@@ -44,7 +45,7 @@ export const heroHighlights: HeroHighlight[] = [
   {
     icon: "📡",
     title: "Farm-to-Market Platform",
-    desc: "Our AgriTech app connects 10,000+ farmers directly to buyers, cutting out middlemen entirely.",
+    desc: `Our AgriTech app connects our growing base of ${companyStats.smallholderPartners}+ farmers directly to buyers, cutting out middlemen entirely.`,
     rotate: "-1deg",
   },
 ];

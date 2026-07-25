@@ -1,14 +1,11 @@
 import HeroStats from "./HeroStats";
+import HeroParallax from "./HeroParallax";
 import { heroHighlights } from "../data/divisions";
 
 export default function Hero() {
   return (
     <section id="hero">
-      <div className="hero-bg"></div>
-      <div className="hero-grid"></div>
-      <div className="hero-circle"></div>
-      <div className="hero-circle"></div>
-      <div className="hero-circle"></div>
+      <HeroParallax />
 
       <div className="hero-content">
         <div className="hero-left">

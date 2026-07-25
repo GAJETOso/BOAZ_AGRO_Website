@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import ScrollProgress from "../components/ScrollProgress";
 import Hero from "../components/Hero";
 import Ticker from "../components/Ticker";
 import About from "../components/About";
@@ -14,6 +15,7 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
+      <ScrollProgress />
       <Navbar />
       <Hero />
       <Ticker />

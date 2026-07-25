@@ -9,8 +9,8 @@ export default function About() {
         <Reveal className="about-visual">
           <div className="about-img-frame"></div>
           <div className="about-badge">
-            <strong>{stats.yearsOfImpact}+</strong>
-            <span>Years of Impact</span>
+            <strong>{stats.foundingYear}</strong>
+            <span>Est.</span>
           </div>
         </Reveal>
 
