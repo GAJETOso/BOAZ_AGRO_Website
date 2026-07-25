@@ -19,9 +19,19 @@ Thumbs.db
 tmp/
 temp/
 
+# Next.js
+/node_modules
+/.next/
+/out/
+next-env.d.ts
+*.tsbuildinfo
+
 # wrangler files
 .wrangler
 .dev.vars*
 !.dev.vars.example
 .env*
 !.env.example
+
+# OpenNext (Cloudflare) build output
+.open-next/
