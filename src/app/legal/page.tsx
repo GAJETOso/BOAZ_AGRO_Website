@@ -42,6 +42,7 @@ export default function LegalPage() {
             portal and available to regulators, auditors, and qualified partners on request.
           </p>
           <ul>
+            <li><a href="/code-of-conduct">Code of Conduct</a></li>
             <li><a href="/safeguarding">Safeguarding Policy</a></li>
             <li><a href="/whistleblower">Whistleblower Policy</a></li>
             <li><a href="/aml-policy">Anti-Money Laundering (AML) Policy</a></li>

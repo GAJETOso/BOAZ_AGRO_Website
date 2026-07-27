@@ -54,6 +54,7 @@ export const footerColumns: FooterColumn[] = [
     title: "Legal",
     links: [
       { label: "Legal & Compliance", href: "/legal" },
+      { label: "Code of Conduct", href: "/code-of-conduct" },
       { label: "Safeguarding Policy", href: "/safeguarding" },
       { label: "Whistleblower Policy", href: "/whistleblower" },
       { label: "AML Policy", href: "/aml-policy" },
