@@ -65,3 +65,28 @@ export interface FooterColumn {
   title: string;
   links: FooterLink[];
 }
+
+export interface WasteStream {
+  source: string;
+  byproduct: string;
+  conversion: string;
+  endProduct: string;
+}
+
+export interface ClimateRisk {
+  icon: string;
+  title: string;
+  desc: string;
+}
+
+export interface ClimatePractice {
+  icon: string;
+  title: string;
+  desc: string;
+}
+
+export interface MythFact {
+  myth: string;
+  fact: string;
+}
+

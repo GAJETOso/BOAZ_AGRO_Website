@@ -28,6 +28,12 @@ export default function Circularity() {
               </div>
             ))}
           </div>
+          <div className="sub-link-row">
+            <a href="/sustainability/waste-management">Waste Management →</a>
+            <a href="/sustainability/climate-effects">Climate Effects →</a>
+            <a href="/sustainability/myths-vs-facts">Myths vs Facts →</a>
+          </div>
+
           <a href="#contact" className="btn-primary">
             Partner on Circular Agriculture
           </a>

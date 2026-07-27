@@ -15,11 +15,19 @@ export const footerColumns: FooterColumn[] = [
     title: "More",
     links: [
       { label: "Cold Chain", href: "#logistics" },
-      { label: "Sustainability", href: "#circularity" },
       { label: "Exports", href: "#exports" },
       { label: "Greenhouse", href: "#divisions" },
       { label: "Aquaculture", href: "#divisions" },
       { label: "Equipment Leasing", href: "#divisions" },
+    ],
+  },
+  {
+    title: "Sustainability",
+    links: [
+      { label: "Overview", href: "#circularity" },
+      { label: "Waste Management", href: "/sustainability/waste-management" },
+      { label: "Climate Effects", href: "/sustainability/climate-effects" },
+      { label: "Myths vs Facts", href: "/sustainability/myths-vs-facts" },
     ],
   },
   {
