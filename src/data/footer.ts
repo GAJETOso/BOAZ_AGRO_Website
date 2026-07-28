@@ -36,7 +36,7 @@ export const footerColumns: FooterColumn[] = [
       { label: "About Us", href: "#about" },
       { label: "Our Founder", href: "/about/founder" },
       { label: "Leadership Team", href: "/about/leadership" },
-      { label: "Mission & Vision", href: "/about/mission" },
+      { label: "Mission, Vision & Values", href: "/about/mission" },
       { label: "Contact", href: "#contact" },
     ],
   },
