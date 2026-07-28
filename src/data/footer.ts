@@ -15,7 +15,6 @@ export const footerColumns: FooterColumn[] = [
     title: "More",
     links: [
       { label: "Cold Chain", href: "#logistics" },
-      { label: "Sustainability", href: "#circularity" },
       { label: "Exports", href: "#exports" },
       { label: "Greenhouse", href: "#divisions" },
       { label: "Aquaculture", href: "#divisions" },
@@ -23,13 +22,43 @@ export const footerColumns: FooterColumn[] = [
     ],
   },
   {
+    title: "Sustainability",
+    links: [
+      { label: "Overview", href: "#circularity" },
+      { label: "Waste Management", href: "/sustainability/waste-management" },
+      { label: "Climate Effects", href: "/sustainability/climate-effects" },
+      { label: "Myths vs Facts", href: "/sustainability/myths-vs-facts" },
+    ],
+  },
+  {
     title: "Company",
     links: [
       { label: "About Us", href: "#about" },
-      { label: "Invest With Us", href: "#why" },
+      { label: "Our Founder", href: "/about/founder" },
+      { label: "Leadership Team", href: "/about/leadership" },
+      { label: "Mission, Vision & Values", href: "/about/mission" },
       { label: "Contact", href: "#contact" },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      { label: "Annual Reports", href: "/resources/reports" },
+      { label: "Financial Statements", href: "/resources/financials" },
+      { label: "Invest With Us", href: "#why" },
       { label: "Careers", href: "#" },
       { label: "Media & Press", href: "#" },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      { label: "Legal & Compliance", href: "/legal" },
+      { label: "Code of Conduct", href: "/code-of-conduct" },
+      { label: "Safeguarding Policy", href: "/safeguarding" },
+      { label: "Whistleblower Policy", href: "/whistleblower" },
+      { label: "AML Policy", href: "/aml-policy" },
+      { label: "Refund Policy", href: "/refund-policy" },
       { label: "🔒 Staff Portal", href: "https://boaz-agro-internal.vercel.app/", external: true },
     ],
   },
