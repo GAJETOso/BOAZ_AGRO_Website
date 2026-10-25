@@ -3,8 +3,8 @@ import type { ContactCard } from "../types";
 export const contactCards: ContactCard[] = [
   { icon: "📍", label: "Headquarters", value: "Boaz Agro House, Central Business District, Abuja, FCT, Nigeria" },
   { icon: "📞", label: "Phone", value: "+234 (0) 800 BOAZ AGRO" },
-  { icon: "✉️", label: "Email", value: "partnerships@boazagro.ng" },
-  { icon: "🌐", label: "Website", value: "www.boazagrolimited.ng" },
+  { icon: "✉️", label: "Email", value: "partnerships@boazagro.com" },
+  { icon: "🌐", label: "Website", value: "www.boazagro.com" },
 ];
 
 export const interestOptions: string[] = [
