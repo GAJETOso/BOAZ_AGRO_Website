@@ -59,7 +59,7 @@ export const footerColumns: FooterColumn[] = [
       { label: "Whistleblower Policy", href: "/whistleblower" },
       { label: "AML Policy", href: "/aml-policy" },
       { label: "Refund Policy", href: "/refund-policy" },
-      { label: "🔒 Staff Portal", href: "https://boaz-agro-internal.vercel.app/", external: true },
+      { label: "🔒 Staff Portal", href: "https://portal.boazagro.com/", external: true },
     ],
   },
 ];
