@@ -10,7 +10,7 @@ export default function Agritech() {
             <div className="mockup-dot"></div>
             <div className="mockup-dot"></div>
             <div className="mockup-dot"></div>
-            <div className="mockup-url">boazagro.ng/platform</div>
+            <div className="mockup-url">boazagro.com/platform</div>
           </div>
           <div className="mockup-body"></div>
         </Reveal>
