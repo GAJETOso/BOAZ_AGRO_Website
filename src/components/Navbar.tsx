@@ -59,7 +59,7 @@ export default function Navbar() {
         ))}
         <li>
           <a
-            href="https://boaz-agro-internal.vercel.app/"
+            href="https://portal.boazagro.com/"
             className="nav-staff"
             target="_blank"
             rel="noopener noreferrer"
