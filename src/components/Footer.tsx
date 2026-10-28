@@ -55,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>© 2026 BOAZ AGRO LIMITED. All rights reserved. RC No. 0000000 — CAC Nigeria.</p>
+          <p>© 2026 BOAZ AGRO LIMITED. All rights reserved. RC No. 9390351 — CAC Nigeria.</p>
           <div className="footer-cert">
             {certBadges.map((badge) => (
               <span className="cert-badge" key={badge}>
